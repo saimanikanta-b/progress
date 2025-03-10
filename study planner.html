@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3001/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3001/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link rel="apple-touch-icon" href="http://localhost:3001/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3001/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <script defer="" src="./study planner_files/bundle.js.download"></script><style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.weekly-plan {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.day-plan {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.day-plan h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.day-plan ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.day-plan li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsY0FBYztFQUNkLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFO0lBQ0UsNENBQTRDO0VBQzlDO0FBQ0Y7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsaUJBQWlCO0VBQ2pCLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2Qiw2QkFBNkI7RUFDN0IsWUFBWTtBQUNkOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUNFO0lBQ0UsdUJBQXVCO0VBQ3pCO0VBQ0E7SUFDRSx5QkFBeUI7RUFDM0I7QUFDRjtBQUNBLFlBQVk7QUFDWjtFQUNFLDhCQUE4QjtFQUM5QixTQUFTO0VBQ1QsYUFBYTtFQUNiLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixjQUFjO0FBQ2hCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFdBQVc7RUFDWCxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsaUJBQWlCO0VBQ2pCLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGdCQUFnQjtFQUNoQixhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLGtCQUFrQjtFQUNsQix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxtQkFBbUI7RUFDbkIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixrQkFBa0I7RUFDbEIsc0JBQXNCO0FBQ3hCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLFdBQVc7QUFDYjs7QUFFQTtFQUNFLHFCQUFxQjtFQUNyQixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxjQUFjO0VBQ2QsYUFBYTtFQUNiLHlCQUF5QjtFQUN6QixzQkFBc0I7RUFDdEIsa0JBQWtCO0FBQ3BCIiwic291cmNlc0NvbnRlbnQiOlsiLkFwcCB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLkFwcC1sb2dvIHtcbiAgaGVpZ2h0OiA0MHZtaW47XG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xufVxuXG5AbWVkaWEgKHByZWZlcnMtcmVkdWNlZC1tb3Rpb246IG5vLXByZWZlcmVuY2UpIHtcbiAgLkFwcC1sb2dvIHtcbiAgICBhbmltYXRpb246IEFwcC1sb2dvLXNwaW4gaW5maW5pdGUgMjBzIGxpbmVhcjtcbiAgfVxufVxuXG4uQXBwLWhlYWRlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMyODJjMzQ7XG4gIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgZm9udC1zaXplOiBjYWxjKDEwcHggKyAydm1pbik7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cblxuLkFwcC1saW5rIHtcbiAgY29sb3I6ICM2MWRhZmI7XG59XG5cbkBrZXlmcmFtZXMgQXBwLWxvZ28tc3BpbiB7XG4gIGZyb20ge1xuICAgIHRyYW5zZm9ybTogcm90YXRlKDBkZWcpO1xuICB9XG4gIHRvIHtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpO1xuICB9XG59XG4vKiBBcHAuY3NzICovXG5ib2R5IHtcbiAgZm9udC1mYW1pbHk6IEFyaWFsLCBzYW5zLXNlcmlmO1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDIwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmNGY0ZjQ7XG59XG5cbi5hcHAge1xuICBtYXgtd2lkdGg6IDgwMHB4O1xuICBtYXJnaW46IDAgYXV0bztcbn1cblxuaDEge1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGNvbG9yOiAjMzMzO1xuICBtYXJnaW4tYm90dG9tOiAyMHB4O1xufVxuXG4ubG9hZGluZyB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgZm9udC1zaXplOiAxLjJyZW07XG4gIG1hcmdpbi10b3A6IDIwcHg7XG59XG5cbi53ZWVrbHktcGxhbiB7XG4gIG1hcmdpbi10b3A6IDIwcHg7XG4gIHBhZGRpbmc6IDIwcHg7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNjY2M7XG4gIGJvcmRlci1yYWRpdXM6IDhweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2Y5ZjlmOTtcbn1cblxuLmRheS1wbGFuIHtcbiAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgcGFkZGluZzogMTVweDtcbiAgYm9yZGVyOiAxcHggc29saWQgI2RkZDtcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xufVxuXG4uZGF5LXBsYW4gaDIge1xuICBtYXJnaW4tdG9wOiAwO1xuICBjb2xvcjogIzMzMztcbn1cblxuLmRheS1wbGFuIHVsIHtcbiAgbGlzdC1zdHlsZS10eXBlOiBub25lO1xuICBwYWRkaW5nOiAwO1xufVxuXG4uZGF5LXBsYW4gbGkge1xuICBtYXJnaW46IDEwcHggMDtcbiAgcGFkZGluZzogMTBweDtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YwZjBmMDtcbiAgYm9yZGVyOiAxcHggc29saWQgI2RkZDtcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xufSJdLCJzb3VyY2VSb290IjoiIn0= */</style></head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="app"><h1>Study Planner</h1><div class="weekly-plan"><div class="day-plan"><h2>Monday</h2><ul><li><strong>React Basics:</strong> Introduction to React</li><li><strong>Advanced React:</strong> Hooks</li><li><strong>JavaScript Fundamentals:</strong> Variables and Data Types</li><li><strong>HTML and CSS:</strong> HTML Basics</li><li><strong>Node.js and Express:</strong> Introduction to Node.js</li><li><strong>Database Management:</strong> SQL Basics</li><li><strong>DevOps and Deployment:</strong> Introduction to DevOps</li><li><strong>Testing in React:</strong> Unit Testing with Jest</li><li><strong>State Management:</strong> Redux Basics</li><li><strong>Advanced JavaScript:</strong> Closures and Prototypes</li></ul></div><div class="day-plan"><h2>Tuesday</h2><ul><li><strong>React Basics:</strong> Components and Props</li><li><strong>Advanced React:</strong> Context API</li><li><strong>JavaScript Fundamentals:</strong> Functions and Scope</li><li><strong>HTML and CSS:</strong> CSS Selectors and Box Model</li><li><strong>Node.js and Express:</strong> Building REST APIs</li><li><strong>Database Management:</strong> MongoDB and NoSQL</li><li><strong>DevOps and Deployment:</strong> Docker Basics</li><li><strong>Testing in React:</strong> Testing React Components</li><li><strong>State Management:</strong> Redux Toolkit</li><li><strong>Advanced JavaScript:</strong> Promises and Async/Await</li></ul></div><div class="day-plan"><h2>Wednesday</h2><ul><li><strong>React Basics:</strong> State and Lifecycle</li><li><strong>Advanced React:</strong> No more topics</li><li><strong>JavaScript Fundamentals:</strong> Arrays and Objects</li><li><strong>HTML and CSS:</strong> Flexbox and Grid</li><li><strong>Node.js and Express:</strong> Middleware in Express</li><li><strong>Database Management:</strong> Database Design</li><li><strong>DevOps and Deployment:</strong> Kubernetes</li><li><strong>Testing in React:</strong> End-to-End Testing with Cypress</li><li><strong>State Management:</strong> Context API vs Redux</li><li><strong>Advanced JavaScript:</strong> Generators and Iterators</li></ul></div><div class="day-plan"><h2>Thursday</h2><ul><li><strong>React Basics:</strong> No more topics</li><li><strong>Advanced React:</strong> No more topics</li><li><strong>JavaScript Fundamentals:</strong> ES6 Features</li><li><strong>HTML and CSS:</strong> Responsive Design</li><li><strong>Node.js and Express:</strong> Error Handling</li><li><strong>Database Management:</strong> ORM with Sequelize</li><li><strong>DevOps and Deployment:</strong> CI/CD Pipelines</li><li><strong>Testing in React:</strong> Mocking API Calls</li><li><strong>State Management:</strong> Recoil</li><li><strong>Advanced JavaScript:</strong> Memory Management</li></ul></div><div class="day-plan"><h2>Friday</h2><ul><li><strong>React Basics:</strong> No more topics</li><li><strong>Advanced React:</strong> No more topics</li><li><strong>JavaScript Fundamentals:</strong> Asynchronous JavaScript</li><li><strong>HTML and CSS:</strong> CSS Animations</li><li><strong>Node.js and Express:</strong> Authentication and Authorization</li><li><strong>Database Management:</strong> Database Optimization</li><li><strong>DevOps and Deployment:</strong> Cloud Deployment</li><li><strong>Testing in React:</strong> Test Coverage</li><li><strong>State Management:</strong> State Management Best Practices</li><li><strong>Advanced JavaScript:</strong> Design Patterns</li></ul></div></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  
+
+</body></html>
